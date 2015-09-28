@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {{ form_label('${1:email}', '${2:Email adress}') }}
+    {{ form_email('${1:email}',${3: null}, {'class' : 'form-control'${4:, 'required' : 'required'}${5:, 'placeholder' : 'eg: foo@bar.com'}}) }}
+    <small class="text-danger">{{ errors.first('${1:email}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>bootemail</tabTrigger>
+    <scope>text.html.twig</scope>
+</snippet>

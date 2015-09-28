@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {{ form_label('${1:inputname}', '${2:Input label}') }}
+    {{ form_select('${1:inputname}',${3: options},${4: null}, {'class' : 'form-control'${5:, 'required' : 'required'}${6:, 'multiple' : 'multiple'}}) }}
+    <small class="text-danger">{{ errors.first('${1:inputname}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>bootselect</tabTrigger>
+    <scope>text.html.twig</scope>
+</snippet>

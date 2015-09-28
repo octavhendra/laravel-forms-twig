@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+{{ form_model(${1:model}, {route : ['${1:model}s.update', ${1:model}.id], 'method' : '${2:PATCH}'${3:, 'class' : 'form-horizontal'}}) }}
+
+    ${0:boottext}
+
+	<div class="btn-group pull-right">
+		${4:{{ form_reset("Reset", {'class' : 'btn btn-warning'\}) }}\}
+		{{ form_submit("${5:Add}", {'class' : 'btn btn-${5:success}'}) }}
+	</div>
+
+{{ form_close() }}
+]]></content>
+    <tabTrigger>bootformmodel</tabTrigger>
+    <scope>text.html.twig</scope>
+</snippet>

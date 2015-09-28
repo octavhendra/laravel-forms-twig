@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {{ form_label('${1:inputname}', '${2:Input label}', {'class' : '${5:col-sm-3 control-label}'}) }}
+    <div class="${6:col-sm-9}">
+	    {{ form_number('${1:inputname}',${3: null}, {'class' : 'form-control'${4:, 'required' : 'required'}}) }}
+	    <small class="text-danger">{{ errors.first('${1:inputname}') }}</small>
+	</div>
+</div>
+]]></content>
+    <tabTrigger>bootnumberh</tabTrigger>
+    <scope>text.html.twig</scope>
+</snippet>

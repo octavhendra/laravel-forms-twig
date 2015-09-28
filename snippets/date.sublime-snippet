@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {{ form_label('${1:inputname}', '${2:Input label}') }}
+    {{ form_date('${1:inputname}',${3: null}, {'class' : 'form-control'${4:, 'required' : 'required'}}) }}
+    <small class="text-danger">{{ errors.first('${1:inputname}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>bootdate</tabTrigger>
+    <scope>text.html.twig</scope>
+</snippet>
