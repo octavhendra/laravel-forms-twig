@@ -1,7 +1,8 @@
-# Laravel Collective Forms + Bootstrap + Twig Snippets  for Sublime Text
+# Laravel TwigBridge Forms + Bootstrap Snippets for Sublime Text
+
 This project based on  [laravel_forms_boostrap_snippets](https://github.com/redgluten/laravel_forms_boostrap_snippets) for Blade and adapted for Twig.
 
-Handy [Sublime Text 3](http://www.sublimetext.com/3) snippets to create [Laravel Collective Forms](http://laravelcollective.com/docs/5.0/html) inputs preformated for [Twitter's Bootstrap 3](http://getbootstrap.com/).
+Handy [Sublime Text 3](http://www.sublimetext.com/3) snippets to create [Twig](http://twig.sensiolabs.org) forms and inputs preformated for [Twitter's Bootstrap 3](http://getbootstrap.com/).
 
 ## Installation
 
